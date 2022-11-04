@@ -1,3 +1,4 @@
+/* COMMON */
 * {
   margin: 0;
 }
@@ -6,7 +7,6 @@ body {
   width: 100vw;
   height: 100%;
   background: linear-gradient(#f2f2f2, #1c1c1c);
-  /* background-color: antiquewhite; */
 }
 
 .header {
@@ -59,20 +59,6 @@ body {
   flex-basis: 40%;
 }
 
-/* .side .line {
-  border: 1px solid #e8e8e8;
-  margin: 30px 0;
-} */
-
-/* .side .footer {
-  flex-basis: 30%;
-  padding-top: 80px;
-}
-
-.side .footer p {
-  color: #7a7a7a;
-} */
-
 /* MAIN */
 .main {
   grid-area: main;
@@ -112,7 +98,7 @@ body {
 }
 
 /* FOOTER */
-
+/* FOOTER1 */
 .footer1 {
   grid-area: info;
   background-color: #f7f7f7;
@@ -129,6 +115,7 @@ body {
   margin: 30px 0;
 }
 
+/* FOOTER2 */
 .footer2 {
   padding: 100px 60px 50px 60px;
   display: grid;
@@ -151,8 +138,12 @@ body {
 }
 
 .footer2 .references {
-  line-height: 2;
+  /* line-height: 2; */
   grid-area: references;
+}
+
+.footer2 .references h2 {
+  padding-bottom: 5px;
 }
 
 .footer2 .references .name {
