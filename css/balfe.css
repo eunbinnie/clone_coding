@@ -1,0 +1,52 @@
+body {
+  font-size: 12px;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg_image {
+  width: 100%;
+  opacity: 80%;
+  position: relative;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+}
+
+header .logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 56px;
+  color: aliceblue;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px #616161;
+}
+
+header ul {
+  margin: 10px 20px;
+  align-self: flex-start;
+}
+
+header ul.right_menu {
+  text-align: right;
+}
+
+header li {
+  color: aliceblue;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+}
