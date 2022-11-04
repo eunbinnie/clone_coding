@@ -1,6 +1,6 @@
 body {
   font-size: 12px;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   line-height: 1.4;
 }
 
@@ -26,7 +26,6 @@ header {
 }
 
 header .logo {
-  font-family: 'Cormorant Garamond', serif;
   font-size: 56px;
   color: aliceblue;
   margin: auto;
@@ -47,6 +46,5 @@ header ul.right_menu {
 
 header li {
   color: aliceblue;
-  font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
 }
