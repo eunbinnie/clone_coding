@@ -125,10 +125,43 @@ img {
   display: flex;
 }
 
-.main .section1 img {
+.main .section1 .cover {
+  background-image: url(https://images.unsplash.com/photo-1542887800-faca0261c9e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGFuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 80%;
   height: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .section1 .cover span {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 40px 25px;
+}
+
+.main .section1 .cover .contents {
+  margin: 40px 25px;
+  color: #fafafa;
+}
+
+.main .section1 .cover h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.main .section1 .cover p {
+  padding-right: 30%;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /* SECTION2 */
