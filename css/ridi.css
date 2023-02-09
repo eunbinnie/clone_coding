@@ -1,11 +1,14 @@
 /* COMMON */
 * {
   box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  /* height: 100%; */
 }
 
 .inner {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 :root {
@@ -21,6 +24,7 @@
 a {
   text-decoration: none;
   color: var(--black-color);
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -32,10 +36,17 @@ header {
 
 header .inner {
   height: 140px;
+  padding: 0 30px;
   background-color: var(--blue-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: flex-end; */
 }
 
-.change-lang {}
+.change-lang {
+  align-self: flex-end;
+}
 
 .change-lang a {
   color: var(--white-color);
@@ -53,10 +64,86 @@ header .inner {
   padding-left: 5px;
 }
 
-nav {}
+/* NAV */
+nav {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-nav .icon {}
+nav .main-logo .main-logo-img {
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--white-color));
+  width: 80px;
+}
 
-nav .icon img {
+nav .nav-bar {
+  display: flex;
+}
+
+nav .nav-bar li {
+  padding-left: 75px;
+}
+
+nav .nav-bar li a {
+  color: var(--white-color);
+  font-size: 18px;
+}
+
+nav .nav-bar li:last-child a {
   background-color: var(--white-color);
+  color: var(--blue-color);
+  border-radius: 30px;
+  padding: 5px 18px;
+  vertical-align: middle;
+}
+
+/* MAIN */
+#main1 {
+  width: 100%;
+  /* height: 1000px; */
+  height: 100vh;
+  margin: auto 0;
+  background-color: var(--blue-color);
+  /* background-size: cover;
+  background-position: center bottom; */
+}
+
+#main1 .inner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main1 .inner span {
+  color: var(--white-color);
+  font-weight: bold;
+  display: block;
+  position: fixed;
+}
+
+#main1 .inner span#our-philosophy {
+  font-size: 30px;
+}
+
+#main1 .inner span#rich-image-deep-insight {
+  font-size: 60px;
+}
+
+#main1 .inner span#rich-deep-ko {
+  font-size: 18px;
+}
+
+#main2 {
+  background-color: var(--light-grey-color);
+}
+
+#main2 .inner {
+  padding: 200px 0;
+}
+
+#main2 .inner #business-main {
+  font-size: 60px;
+  font-weight: bold;
 }
